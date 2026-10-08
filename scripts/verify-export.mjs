@@ -35,6 +35,18 @@ for (const page of pages) {
   const path = page.slug ? join('out', page.slug, 'index.html') : 'out/index.html';
   assert.ok(existsSync(path), `Missing ${path}`);
   const html = readFileSync(path, 'utf8');
+  const head = html.match(/<head\b[^>]*>([\s\S]*?)<\/head>/i)?.[1] ?? '';
+  const gaSource = 'https://www.googletagmanager.com/gtag/js?id=G-NW23ZFSC5L';
+  const scripts = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)];
+  const gaLoader = scripts.filter((script) => /\bsrc="https:\/\/www\.googletagmanager\.com\/gtag\/js\?/.test(script[1]));
+  const gaInit = scripts.filter((script) => /\bwindow\.dataLayer\s*=/.test(script[2]) && !script[2].trimStart().startsWith('self.__next_f.push'));
+  assert.equal(gaLoader.length, 1, `${page.slug} GA loader count`);
+  assert.equal(gaInit.length, 1, `${page.slug} GA initialization count`);
+  assert.ok(gaLoader[0][1].includes(`src="${gaSource}"`), `${page.slug} GA measurement ID`);
+  assert.ok(head.includes(gaLoader[0][0]), `${page.slug} GA loader must be in static head`);
+  assert.ok(/\basync(?:="")?(?:\s|$)/.test(gaLoader[0][1]), `${page.slug} GA loader must be async`);
+  assert.ok(head.includes(gaInit[0][0]), `${page.slug} GA initialization must be in static head`);
+  assert.equal((gaInit[0][2].match(/gtag\('config', 'G-NW23ZFSC5L'\)/g) ?? []).length, 1, `${page.slug} GA config count`);
   const title = decode(html.match(/<title>(.*?)<\/title>/s)?.[1] ?? '');
   const description = decode(html.match(/<meta name="description" content="([^"]*)"\s*\/?\s*>/)?.[1] ?? '');
   assert.equal(title, page.title, `${page.slug} title`);
@@ -128,7 +140,6 @@ for (const name of ['llms.txt', 'llms-full.txt']) {
   assert.ok(!text.includes('October 7, 2026') && !text.includes('2026-10-07'), 'Old date in text export');
 }
 assert.ok(readFileSync('out/llms-full.txt', 'utf8').includes('Celestial | $20Qa | 25B'));
-assert.ok(readFileSync('out/index.html', 'utf8').includes('G-NW23ZFSC5L'));
 assert.equal(JSON.parse(readFileSync('out/manifest.webmanifest', 'utf8')).icons[0].type, 'image/webp');
 for (const slug of legalSlugs) assert.ok(readFileSync(`out/${slug}/index.html`, 'utf8').includes('content="noindex, follow"'));
 assert.ok(readFileSync('out/404.html', 'utf8').includes('noindex'));

@@ -1,4 +1,3 @@
-import Script from "next/script";
 import { integrations } from "@/config/integrations";
 
 export function Analytics() {
@@ -7,18 +6,19 @@ export function Analytics() {
 
   return (
     <>
-      <Script
+      <script
+        async
         src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
-        strategy="afterInteractive"
       />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
+      <script
+        id="google-analytics"
+        dangerouslySetInnerHTML={{ __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', '${measurementId}');
-        `}
-      </Script>
+        ` }}
+      />
     </>
   );
 }
