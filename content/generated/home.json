@@ -1,0 +1,304 @@
+{
+  "enabled": true,
+  "slug": "",
+  "pageType": "home",
+  "title": "Break and Steal an Egg Wiki, Codes & Guides",
+  "description": "Break and Steal an Egg wiki for Roblox: current codes status, zones, eggs, pickaxes, trails, beginner tips, and the latest New Biome update.",
+  "navVisible": true,
+  "hero": {
+    "eyebrow": "Roblox Game Wiki",
+    "heading": "Break and Steal an Egg",
+    "lead": "Break eggs, take the animals that hatch, escape the guards, and bring them back to your base for Cash. Use this Break and Steal an Egg wiki for codes status, zones, eggs, pickaxes, trails, beginner progression, and the latest New Biome event.",
+    "supportingText": "For the ILGames x Eggs experience on Roblox · Place ID 114326934417838",
+    "primaryLink": {
+      "slug": "beginner-guide",
+      "label": "Start with the Beginner Guide"
+    },
+    "secondaryLink": {
+      "label": "Play on Roblox",
+      "url": "https://www.roblox.com/games/114326934417838/Break-and-Steal-an-Egg"
+    }
+  },
+  "sections": [
+    {
+      "id": "break-and-steal-an-egg-quick-answer",
+      "heading": "Break and Steal an Egg Quick Answer",
+      "paragraphs": [
+        "Break and Steal an Egg is a Roblox game by ILGames x Eggs. The core loop is direct: break an egg, take the animal that hatches, escape the guards, then place it at your base to earn Cash. Each successful return gives you a reason to improve the next run, whether that means faster breaking, more Speed or more carrying capacity.",
+        "This wiki covers the experience with Place ID 114326934417838 and Universe ID 10765288803. It is different from another game called Steal An Egg. Check the developer and the official game link when comparing guides, especially for codes or updates. Similar titles do not mean the same egg pools, equipment or reward systems.",
+        "Use this page as a starting point rather than a substitute for every detailed table. The linked guides answer separate questions: whether there are working codes, which zone your Speed can reach, what eggs that zone contains, and which equipment stat can help with a slow run. The guides and references here were updated October 8, 2026, so the upcoming New Biome announcement is kept separate from the current progression."
+      ]
+    },
+    {
+      "id": "start-here",
+      "heading": "Start Here",
+      "paragraphs": [
+        "Pick the page that matches what you need in your next session. A new player can begin with the full egg-to-base route; a returning player can jump straight to a zone gate or equipment cost. Each guide below has a direct answer first, followed by the relevant explanation or current table."
+      ],
+      "links": [
+        {
+          "slug": "codes",
+          "label": "Codes",
+          "description": "There are no confirmed working redeem codes as of October 8. Read the current status and the distinction between codes and community rewards."
+        },
+        {
+          "slug": "new-biome",
+          "label": "New Biome",
+          "description": "Check the October 11 event window and what the announcement actually confirms. The biome name and requirements have not been announced."
+        },
+        {
+          "slug": "zones",
+          "label": "Zones",
+          "description": "Compare the current nine-zone reference covered here, including Speed gates and rarity tiers. Find the next area to check against your actual Speed."
+        },
+        {
+          "slug": "eggs",
+          "label": "Eggs",
+          "description": "Browse the current egg pools by zone and rarity. Choose a reachable pool without relying on invented hatch odds."
+        },
+        {
+          "slug": "pickaxes",
+          "label": "Pickaxes",
+          "description": "Compare 18 tools by cost and Power. Use this guide when breaking an egg is the part slowing your run."
+        },
+        {
+          "slug": "trails",
+          "label": "Trails",
+          "description": "Compare 11 Speed multipliers and their costs. Learn why a purchased Trail needs to be equipped."
+        },
+        {
+          "slug": "beginner-guide",
+          "label": "Beginner Guide",
+          "description": "Follow your first complete run from Speed training to earning Cash. Match the next upgrade to the bottleneck you observed."
+        }
+      ]
+    },
+    {
+      "id": "how-break-and-steal-an-egg-works",
+      "heading": "How Break and Steal an Egg Works",
+      "paragraphs": [],
+      "subsections": [
+        {
+          "heading": "Break an Egg",
+          "paragraphs": [
+            "Eggs are the source of animals. First reach a zone using the appropriate Speed progression, then use your Pickaxe to break an egg there. The current egg pools are grouped by zone, from Common Forest eggs to Secret Galaxy eggs. Pickaxe Power addresses breaking efficiency; it is separate from the Speed gate that lets you reach the area. If the egg stage feels slow, compare your tool with the current Pickaxe list before assuming that a movement upgrade will solve it."
+          ]
+        },
+        {
+          "heading": "Take the Animal and Escape the Guards",
+          "paragraphs": [
+            "Once the egg hatches, take the animal and escape the guards. The return is part of the task, so your next upgrade decision should consider it alongside the time spent breaking. An equipped Trail belongs to Speed progression, while bigger satchels allow you to take more animals per run. Learn the route with your current setup and notice which part needs attention. This wiki does not assign a guard health value or promise a fixed escape time."
+          ]
+        },
+        {
+          "heading": "Place Animals at Your Base for Cash",
+          "paragraphs": [
+            "Bring the animals back and place them at your base to earn Cash. That placement completes the official earning loop and connects a run to future purchases. Breaking an egg alone is only the opening stage. There is no animal income table here, because an exact payout should not be inferred from the egg name or rarity. Focus first on completing the return, then use the equipment references to compare the cost and role of your next upgrade."
+          ]
+        },
+        {
+          "heading": "Upgrade the Part Slowing Your Run",
+          "paragraphs": [
+            "Speed, Power and carrying capacity solve different problems. Speed is relevant to movement and zone progression. Pickaxes raise Power for faster egg breaking. Bigger satchels allow more animals in a run. The official description also mentions an Index for collection, which helps explain why you may want to revisit egg pools beyond a single upgrade target. Decide which system to improve by what happened in your last run, rather than treating every large stat as interchangeable."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "current-zone-progression",
+      "heading": "Current Zone Progression",
+      "paragraphs": [
+        "The current verified zone reference covered here contains nine progression areas. Forest is the opening gate at 5 Speed; Galaxy is the highest entry in this reference at 25,000,000,000 Speed. The table below keeps the overview compact, while the zone guide provides each egg pool and more detail about progression.",
+        "Read the Speed column as an access reference, not a Cash cost or a tool requirement. A higher rarity indicates a later tier in the current route, but does not publish an animal's hatch odds or income. After entry, you still need to break an egg and return successfully. Those stages are worth checking before committing to the next large progression jump."
+      ],
+      "table": {
+        "caption": "Nine current zones at a glance",
+        "columns": [
+          "Zone",
+          "Speed",
+          "Rarity"
+        ],
+        "rows": [
+          [
+            "Forest",
+            "5",
+            "Common"
+          ],
+          [
+            "Desert",
+            "1,000",
+            "Uncommon"
+          ],
+          [
+            "Snowy",
+            "50,000",
+            "Rare"
+          ],
+          [
+            "Candy",
+            "750,000",
+            "Epic"
+          ],
+          [
+            "Swamp",
+            "12,000,000",
+            "Legendary"
+          ],
+          [
+            "Ocean",
+            "150,000,000",
+            "Mythic"
+          ],
+          [
+            "Hell",
+            "1,000,000,000",
+            "Divine"
+          ],
+          [
+            "Blossom",
+            "5,000,000,000",
+            "Cosmic"
+          ],
+          [
+            "Galaxy",
+            "25,000,000,000",
+            "Secret"
+          ]
+        ]
+      },
+      "links": [
+        {
+          "slug": "zones",
+          "label": "Full zones and Speed guide"
+        },
+        {
+          "slug": "eggs",
+          "label": "Egg pools in the current zone reference"
+        }
+      ]
+    },
+    {
+      "id": "pickaxes-and-trails-solve-different-problems",
+      "heading": "Pickaxes and Trails Solve Different Problems",
+      "paragraphs": [
+        "Pickaxes raise Power and help with egg breaking. Trails provide Speed multipliers and must be equipped for those multipliers to apply. If you own a Trail but have not equipped it, start with that check before buying another Speed upgrade.",
+        "Think about the task rather than the item name. A slow egg points toward Power; difficulty reaching an area or moving through the return points toward Speed progression. A zone gate also uses actual Speed, so a stronger tool does not replace the entry value. The detailed lists help you compare purchases after you have identified the relevant stat.",
+        "Neither list guarantees an exact break time or a particular zone unlock from one item. Players can have different starting Speed values, and this reference does not provide egg health or a hidden training formula. Use the tables alongside the game's own stat display and the result of a full run."
+      ],
+      "links": [
+        {
+          "slug": "pickaxes",
+          "label": "Compare Pickaxe costs and Power"
+        },
+        {
+          "slug": "trails",
+          "label": "Compare Trail costs and multipliers"
+        }
+      ]
+    },
+    {
+      "id": "break-and-steal-an-egg-codes-status",
+      "heading": "Break and Steal an Egg Codes Status",
+      "paragraphs": [
+        "There are currently no confirmed working redeem codes as of October 8, 2026. The codes guide has no strings to copy and no invented redemption menu. An empty confirmed list is a useful answer when the alternative is spending time on claims from another experience.",
+        "The official listing mentions free rewards for liking the game and joining its group. Those are community rewards, not confirmed redeem codes. Check the game for its actual reward instructions; a group name or animal name is not a code just because it appears near an offer. The dedicated page explains how to keep those two types of reward separate."
+      ],
+      "links": [
+        {
+          "slug": "codes",
+          "label": "Read the current codes status"
+        }
+      ]
+    },
+    {
+      "id": "next-update-new-biome",
+      "heading": "Next Update — NEW BIOME 🪲",
+      "paragraphs": [
+        "NEW BIOME 🪲 is scheduled to start October 11, 2026 at 12:00:07 UTC and end October 12, 2026 at 12:00:07 UTC. The announcement confirms that a new area is coming to Break and Steal an Egg. As of October 8, it does not name the biome or publish its Speed gate, eggs, animals or rewards.",
+        "Prepare by understanding your current Speed, reachable zones and equipped tool and Trail. There is no announced Cash target or specific equipment requirement to save toward. The current nine-zone route remains a reference for today's progression; the new area should not be assigned a tenth position or a made-up pool before its details are announced."
+      ],
+      "links": [
+        {
+          "slug": "new-biome",
+          "label": "See the New Biome event schedule"
+        }
+      ]
+    },
+    {
+      "id": "choose-your-next-guide",
+      "heading": "Choose Your Next Guide",
+      "paragraphs": [
+        "Use a specific question to choose your next page. If you need a zone requirement, open Zones. If you already know the destination and want its pool, open Eggs. If breaking takes too long, compare Pickaxes. If you need more Speed, review Trails and confirm the equip step. If this is your first session, the Beginner Guide takes you through the full loop.",
+        "For code claims or upcoming news, use the dated status pages. They answer those questions separately from equipment progression, so an event announcement is not mistaken for a reward code or an unpublished unlock route. Return here whenever you want to switch between the current tables and the wider game overview."
+      ],
+      "links": [
+        {
+          "slug": "zones",
+          "label": "Need a zone requirement?"
+        },
+        {
+          "slug": "eggs",
+          "label": "Need an egg pool?"
+        },
+        {
+          "slug": "pickaxes",
+          "label": "Egg breaks too slowly?"
+        },
+        {
+          "slug": "trails",
+          "label": "Need more Speed?"
+        },
+        {
+          "slug": "beginner-guide",
+          "label": "New to the game?"
+        },
+        {
+          "slug": "codes",
+          "label": "Looking for working codes?",
+          "description": "Read the confirmed code status and the separate community reward offer."
+        },
+        {
+          "slug": "new-biome",
+          "label": "When is the next update?",
+          "description": "Check the October 11–12 event window and the announced area details."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Break and Steal an Egg?",
+      "answer": "It is a Roblox game by ILGames x Eggs where you break eggs, take the animals that hatch, escape guards and place the animals at your base to earn Cash."
+    },
+    {
+      "question": "Is Break and Steal an Egg the same as Steal An Egg?",
+      "answer": "No. This wiki covers the ILGames x Eggs experience with Place ID 114326934417838. Guides and codes for a different egg game are not interchangeable."
+    },
+    {
+      "question": "Are there any Break and Steal an Egg codes?",
+      "answer": "There are no confirmed working redeem codes as of October 8, 2026. The official like-and-group free reward offer is separate from codes."
+    },
+    {
+      "question": "How do you earn Cash?",
+      "answer": "Take hatched animals, bring them back past the guards and place them at your base. Animal placement is the earning stage described in the official game loop."
+    },
+    {
+      "question": "What do Pickaxes do?",
+      "answer": "Pickaxes provide Power for breaking eggs faster. They do not replace Speed for zone access or the multiplier role of an equipped Trail."
+    },
+    {
+      "question": "What is the next Break and Steal an Egg update?",
+      "answer": "The announced update is NEW BIOME 🪲, scheduled from October 11, 2026 at 12:00:07 UTC to October 12, 2026 at 12:00:07 UTC. A new area is coming, but its name and requirements have not been announced."
+    },
+    {
+      "question": "How do you play Break and Steal an Egg?",
+      "answer": "Reach a zone using Speed, break an egg with your Pickaxe, take the hatched animal, escape the guards and place it at your base for Cash. Upgrade the part slowing your next run."
+    },
+    {
+      "question": "Where can I play Break and Steal an Egg?",
+      "answer": "Play on Roblox using the official ILGames x Eggs game page, with Place ID 114326934417838. The Play on Roblox link above opens that experience."
+    }
+  ],
+  "screenshots": [],
+  "lastReviewed": "2026-10-08"
+}
