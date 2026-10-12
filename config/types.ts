@@ -112,9 +112,14 @@ export interface IntegrationConfig {
   ads:
     | { provider: "none" }
     | {
-        provider: "adsterra-native";
+        provider: "adsterra";
         scriptUrl: string;
         containerId: string;
+        banners: {
+          desktop: { key: string; format: "iframe"; width: 728; height: 90; params: Record<string, never>; scriptUrl: string };
+          mobile: { key: string; format: "iframe"; width: 320; height: 50; params: Record<string, never>; scriptUrl: string };
+        };
+        socialScriptUrl: string;
       };
   verification: {
     bing: string | null;

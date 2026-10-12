@@ -10,9 +10,9 @@ if (integrations.analytics.provider === "google-analytics") {
   );
 }
 
-if (integrations.ads.provider === "adsterra-native") {
+if (integrations.ads.provider === "adsterra") {
   privacyIntegrationParagraphs.push(
-    "Adsterra Native advertising is enabled. Adsterra may process technical request information and applies its own privacy policy.",
+    "Adsterra banner, Native and Social Bar advertising is enabled. Adsterra and its advertising partners may use cookies and process technical request information, such as IP address, browser and device information, under their own privacy policies.",
   );
 }
 
@@ -85,7 +85,7 @@ export const legalPages: SeoPageDefinition[] = [
       { id: "changes", heading: "Policy Changes", paragraphs: ["Update this page and its review date whenever the site's integrations or data practices change."] },
     ],
     relatedSlugs: ["terms", "contact"],
-    lastReviewed: "2026-01-15",
+    lastReviewed: "2026-10-11",
   },
   {
     enabled: true,

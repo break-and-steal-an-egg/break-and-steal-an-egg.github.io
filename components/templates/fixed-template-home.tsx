@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { NativeAdSlot } from "@/components/integrations/native-ad-slot";
+import { BannerAd } from "@/components/integrations/banner-ad";
 import { JsonLd } from "@/components/site/json-ld";
 import { siteConfig } from "@/config/site";
 import type { HomePageDefinition } from "@/config/types";
@@ -22,8 +22,9 @@ export function FixedTemplateHome({ home }: { home: HomePageDefinition }) {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img className="wiki-cover" src={assetPath(siteConfig.assets.cover)} width={767} height={432} alt="Break and Steal an Egg Roblox cover art" fetchPriority="high" />
       </div></div></section>
+      <div className="site-container"><BannerAd /></div>
       <div className="site-container wiki-article-layout">
-        <div className="wiki-board wiki-article"><FixedContent page={home} /><NativeAdSlot /></div>
+        <div className="wiki-board wiki-article"><FixedContent page={home} /></div>
         <ContentNavigation page={home} />
       </div>
     </main>

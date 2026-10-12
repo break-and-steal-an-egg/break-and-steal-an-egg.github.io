@@ -1,5 +1,6 @@
 import type { HomePageDefinition, SeoPageDefinition } from "@/config/types";
 import { PageSections } from "@/components/site/page-sections";
+import { NativeAdSlot } from "@/components/integrations/native-ad-slot";
 import { Faq } from "@/components/site/faq";
 import { assetPath } from "@/lib/urls";
 
@@ -10,7 +11,7 @@ export function UpdatedDate({ date }: { date: string }) {
 
 export function FixedContent({ page }: { page: HomePageDefinition | SeoPageDefinition }) {
   return <>
-    <PageSections sections={page.sections} />
+    <PageSections sections={page.sections} afterFirstSection={<NativeAdSlot />} />
     {page.screenshots?.length ? <section id="screenshots"><h2>Gameplay Screenshots</h2><div className="mt-7 grid gap-5 md:grid-cols-2">
       {page.screenshots.map((shot) => <figure key={shot.src}>
         {/* eslint-disable-next-line @next/next/no-img-element */}

@@ -144,7 +144,23 @@ html[data-header-style="border"] .site-nav-link {
   border-radius: 0;
 }
 
-[data-native-ad-slot]:empty { display: none; }
+/* Keep official targets alive even when a blocked/empty ad has no visible slot. */
+.ad-slot { min-width: 0; max-width: 100%; }
+.ad-label { font-size: 11px; line-height: 18px; text-align: center; opacity: .7; font-weight: 400; }
+.ad-banner { margin-block: 12px; }
+.ad-banner-host { position: relative; margin-inline: auto; min-height: 50px; }
+.ad-banner-host > iframe { display: block; border: 0; max-width: none; transform-origin: top left; }
+.ad-banner[data-device="desktop"] > .ad-banner-host { min-height: 90px; }
+.ad-banner[data-device="mobile"] > .ad-banner-host { min-height: 50px; }
+.ad-banner[data-state="empty"] { margin-block: 0; }
+.ad-banner[data-state="empty"] > .ad-label { display: none; }
+.ad-banner[data-state="empty"] > .ad-banner-host { height: 0 !important; min-height: 0; overflow: hidden; }
+.ad-native { margin-block: 24px; }
+.ad-native-host { max-width: 100%; overflow-x: clip; }
+.ad-native[data-filled="false"] { margin-block: 0 !important; }
+.ad-native[data-filled="false"] > .ad-label { display: none; }
+.ad-native[data-filled="false"] + section { margin-top: 42px; }
+@media (min-width: 768px) { .ad-banner-host { min-height: 90px; } }
 
 /* Wiki skin — denser editorial layout. Unprefixed rules above stay portal defaults. */
 html[data-skin="wiki"] .site-container {
